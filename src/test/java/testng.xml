@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="all tests">
+    <test name="TestThrottledInputStream">
+        <classes>
+            <class name="cz.ds.stream.TestThrottledInputStream"/>
+            <class name="cz.ds.stream.config.TestXmlConfigFactory"/>
+            <class name="cz.ds.stream.config.jaxb.TestConfigMarshaller"/>
+            <class name="cz.ds.stream.config.util.TestMeasureUnitType"/>
+            <class name="cz.ds.stream.util.TestMeasureUnitConverter"/>
+        </classes>
+    </test>
+</suite>

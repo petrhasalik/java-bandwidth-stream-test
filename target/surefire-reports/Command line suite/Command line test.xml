@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="Magic-PC" name="cz.ds.stream.TestThrottledInputStream" tests="12" failures="0" timestamp="27 Aug 2014 17:59:43 GMT" time="94.949" errors="0">
+  <testcase name="testThrottling" time="94.873" classname="cz.ds.stream.TestThrottledInputStream"/>
+  <testcase name="testLoadBandwidthFromUnknownPool" time="0.003" classname="cz.ds.stream.config.TestXmlConfigFactory"/>
+  <testcase name="testLoadConfigWithUnrestrictedPool" time="0.0" classname="cz.ds.stream.config.TestXmlConfigFactory"/>
+  <testcase name="testLoadInnerBandwidth" time="0.003" classname="cz.ds.stream.config.TestXmlConfigFactory"/>
+  <testcase name="testXmlConfigMarshaller" time="0.017" classname="cz.ds.stream.config.jaxb.TestConfigMarshaller"/>
+  <testcase name="testMeasureUnitTypes" time="0.001" classname="cz.ds.stream.config.util.TestMeasureUnitType"/>
+  <testcase name="testMeasureUnitTypes" time="0.0" classname="cz.ds.stream.config.util.TestMeasureUnitType"/>
+  <testcase name="testMeasureUnitTypes" time="0.0" classname="cz.ds.stream.config.util.TestMeasureUnitType"/>
+  <testcase name="testMeasureUnitTypes" time="0.0" classname="cz.ds.stream.config.util.TestMeasureUnitType"/>
+  <testcase name="testMeasureUnitTypes" time="0.001" classname="cz.ds.stream.config.util.TestMeasureUnitType"/>
+  <testcase name="testConvertMeasureUnitTypeToUnitType" time="0.001" classname="cz.ds.stream.util.TestMeasureUnitConverter"/>
+  <testcase name="testConvertUnitTypeToMeasureUnitType" time="0.001" classname="cz.ds.stream.util.TestMeasureUnitConverter"/>
+</testsuite>

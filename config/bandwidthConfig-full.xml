@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bandwidthConfig>
+    <bandwidths>
+        <!-- configuration bellow have 2 pools:
+            * default pool - simple pool with all day / working day and weekend definitions
+            * http pool - yet another pool
+        -->
+        <bandwidth poolName="default pool">
+            <from hour="0" minute="0" second="0"/>
+            <to hour="23" minute="59" second="59"/>
+            <speed unit="kB" value="1500.0"/>
+            <dayType>all</dayType>
+        </bandwidth>
+        <bandwidth poolName="default pool">
+            <from hour="8" minute="30" second="0"/>
+            <to hour="15" minute="30" second="59"/>
+            <speed unit="kB" value="1000.0"/>
+            <dayType>all</dayType>
+        </bandwidth>
+        <bandwidth poolName="default pool">
+            <from hour="15" minute="31" second="0"/>
+            <to hour="22" minute="0" second="59"/>
+            <speed unit="kB" value="1200.0"/>
+            <dayType>all</dayType>
+        </bandwidth>
+        <bandwidth poolName="default pool">
+            <from hour="0" minute="0" second="0"/>
+            <to hour="23" minute="59" second="59"/>
+            <speed unit="MB" value="2.0"/>
+            <dayType>workingDay</dayType>
+        </bandwidth>
+        <bandwidth poolName="default pool">
+            <from hour="0" minute="0" second="0"/>
+            <to hour="23" minute="59" second="59"/>
+            <speed unit="GB" value="2.0"/>
+            <dayType>weekend</dayType>
+        </bandwidth>
+
+        <!-- http pool -->
+        <bandwidth poolName="http pool">
+            <from hour="0" minute="0" second="0"/>
+            <to hour="23" minute="59" second="59"/>
+            <speed unit="kB" value="1500.0"/>
+            <dayType>all</dayType>
+        </bandwidth>
+        <bandwidth poolName="http pool">
+            <from hour="10" minute="30" second="0"/>
+            <to hour="11" minute="30" second="59"/>
+            <speed unit="kB" value="1500.0"/>
+            <dayType>all</dayType>
+        </bandwidth>
+        <bandwidth poolName="http pool">
+            <from hour="8" minute="30" second="0"/>
+            <to hour="15" minute="30" second="59"/>
+            <speed unit="kB" value="1000.0"/>
+            <dayType>all</dayType>
+        </bandwidth>
+        <bandwidth poolName="http pool">
+            <from hour="15" minute="31" second="0"/>
+            <to hour="22" minute="0" second="59"/>
+            <speed unit="kB" value="1200.0"/>
+            <dayType>all</dayType>
+        </bandwidth>
+        <bandwidth poolName="http pool">
+            <from hour="0" minute="0" second="0"/>
+            <to hour="23" minute="59" second="59"/>
+            <speed unit="MB" value="2.0"/>
+            <dayType>workingDay</dayType>
+        </bandwidth>
+
+        <!-- unrestricted pool => full throughput -->
+        <bandwidth poolName="unrestricted pool" />
+
+        <!-- pool for TestThrottledInputStream test
+            File size is 192kB
+            Bandwidth is 10kB/sec
+            We have 5 clients (input streams), each client can read max 2kB/sec
+        -->
+        <bandwidth poolName="TestThrottledInputStream pool">
+            <from hour="0" minute="0" second="0"/>
+            <to hour="23" minute="59" second="59"/>
+            <speed unit="kB" value="10.0"/>
+            <dayType>all</dayType>
+        </bandwidth>
+    </bandwidths>
+</bandwidthConfig>

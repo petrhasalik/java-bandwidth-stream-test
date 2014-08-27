@@ -1,0 +1,6 @@
+cz\ds\stream\util\TestMeasureUnitConverter.class
+cz\ds\stream\TestThrottledInputStream$ThrottledThread.class
+cz\ds\stream\config\util\TestMeasureUnitType.class
+cz\ds\stream\config\TestXmlConfigFactory.class
+cz\ds\stream\TestThrottledInputStream.class
+cz\ds\stream\config\jaxb\TestConfigMarshaller.class

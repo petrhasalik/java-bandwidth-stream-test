@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="12" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="94949" started-at="2014-08-27T19:58:08Z" finished-at="2014-08-27T19:59:43Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="94949" started-at="2014-08-27T19:58:08Z" finished-at="2014-08-27T19:59:43Z">
+      <class name="cz.ds.stream.config.TestXmlConfigFactory">
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="20" started-at="2014-08-27T19:59:43Z" finished-at="2014-08-27T19:59:43Z">
+        </test-method>
+        <test-method status="PASS" signature="testLoadBandwidthFromUnknownPool()" name="testLoadBandwidthFromUnknownPool" duration-ms="3" started-at="2014-08-27T19:59:43Z" finished-at="2014-08-27T19:59:43Z">
+        </test-method>
+        <test-method status="PASS" signature="testLoadConfigWithUnrestrictedPool()" name="testLoadConfigWithUnrestrictedPool" duration-ms="0" started-at="2014-08-27T19:59:43Z" finished-at="2014-08-27T19:59:43Z">
+        </test-method>
+        <test-method status="PASS" signature="testLoadInnerBandwidth()" name="testLoadInnerBandwidth" duration-ms="3" started-at="2014-08-27T19:59:43Z" finished-at="2014-08-27T19:59:43Z">
+        </test-method>
+      </class>
+      <class name="cz.ds.stream.config.util.TestMeasureUnitType">
+        <test-method status="PASS" signature="testMeasureUnitTypes(cz.ds.stream.config.util.MeasureUnitType, java.lang.Integer)" name="testMeasureUnitTypes" duration-ms="1" started-at="2014-08-27T19:59:43Z" finished-at="2014-08-27T19:59:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[B]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="testMeasureUnitTypes(cz.ds.stream.config.util.MeasureUnitType, java.lang.Integer)" name="testMeasureUnitTypes" duration-ms="0" started-at="2014-08-27T19:59:43Z" finished-at="2014-08-27T19:59:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MB]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="testMeasureUnitTypes(cz.ds.stream.config.util.MeasureUnitType, java.lang.Integer)" name="testMeasureUnitTypes" duration-ms="0" started-at="2014-08-27T19:59:43Z" finished-at="2014-08-27T19:59:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kB]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="testMeasureUnitTypes(cz.ds.stream.config.util.MeasureUnitType, java.lang.Integer)" name="testMeasureUnitTypes" duration-ms="0" started-at="2014-08-27T19:59:43Z" finished-at="2014-08-27T19:59:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GB]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="testMeasureUnitTypes(cz.ds.stream.config.util.MeasureUnitType, java.lang.Integer)" name="testMeasureUnitTypes" duration-ms="1" started-at="2014-08-27T19:59:43Z" finished-at="2014-08-27T19:59:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TB]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+      </class>
+      <class name="cz.ds.stream.util.TestMeasureUnitConverter">
+        <test-method status="PASS" signature="testConvertMeasureUnitTypeToUnitType()" name="testConvertMeasureUnitTypeToUnitType" duration-ms="1" started-at="2014-08-27T19:59:43Z" finished-at="2014-08-27T19:59:43Z">
+        </test-method>
+        <test-method status="PASS" signature="testConvertUnitTypeToMeasureUnitType()" name="testConvertUnitTypeToMeasureUnitType" duration-ms="1" started-at="2014-08-27T19:59:43Z" finished-at="2014-08-27T19:59:43Z">
+        </test-method>
+      </class>
+      <class name="cz.ds.stream.config.jaxb.TestConfigMarshaller">
+        <test-method status="PASS" signature="testXmlConfigMarshaller()" name="testXmlConfigMarshaller" duration-ms="17" started-at="2014-08-27T19:59:43Z" finished-at="2014-08-27T19:59:43Z">
+        </test-method>
+      </class>
+      <class name="cz.ds.stream.TestThrottledInputStream">
+        <test-method status="PASS" signature="testThrottling()" name="testThrottling" duration-ms="94873" started-at="2014-08-27T19:58:08Z" finished-at="2014-08-27T19:59:43Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>
